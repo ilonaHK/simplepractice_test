@@ -27,6 +27,7 @@ This project is a Ruby-based application, containerized using Docker for ease of
    ```sh
   git clone https://github.com/ilonaHK/simplepractice_test.git
   cd simplepractice_test
+  ```
    
 2. **Build, shut down, rebuild start the containers an see logs:**
 ```sh
