@@ -25,12 +25,15 @@ This project is a Ruby-based application, containerized using Docker for ease of
 
 1. **Clone the repository:**
    ```sh
-   git clone https://your-repository-url.git
-   cd your-repository
+  git clone https://github.com/ilonaHK/simplepractice_test.git
+  cd simplepractice_test
    
 2. **Build, shut down, rebuild start the containers an see logs:**
 ```sh
-  docker build -t my-ruby-app .
+ docker build -t simplepractice_test .
+ docker run -p 4567:4567 simplepractice_test
+ docker stop $(docker ps -q --filter ancestor=simplepractice_test)
+ docker logs $(docker ps -q --filter ancestor=simplepractice_test)
 ```
 
 ### Environment Variables
