@@ -18,10 +18,6 @@ class TopNavBar < SitePrism::Section
     create_client_button.click
     create_client_option.click
   end
-
-  def test_method
-    puts "TopNavBar section loaded successfully!"
-  end
 end
 
 
