@@ -24,12 +24,11 @@ This project is a Ruby-based application, containerized using Docker for ease of
 ### Build and Run
 
 1. **Clone the repository:**
-   ```sh
+  ```sh
   git clone https://github.com/ilonaHK/simplepractice_test.git
   cd simplepractice_test
-  ```
-   
-2. **Build, shut down, rebuild start the containers an see logs:**
+  ``` 
+2.**Build, shut down, rebuild start the containers an see logs:**
 ```sh
  docker build -t simplepractice_test .
  docker run -p 4567:4567 simplepractice_test
